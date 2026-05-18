@@ -11,3 +11,5 @@
 2. Create a new branch
 
    git checkout -b feature/your-feature
+3. Never push directly to main
+4. Submit a pull request for review
