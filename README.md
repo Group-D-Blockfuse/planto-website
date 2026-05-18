@@ -1,2 +1,11 @@
-# planto-website
-A modern plant eCommerce website 
+# Planto Website
+
+## Tech Stack
+- HTML5
+- Tailwind CSS v4
+
+## Features
+- Modern plant ecommerce interface
+
+## Setup
+npm run dev
