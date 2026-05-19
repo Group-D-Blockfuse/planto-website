@@ -1,14 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planto Web</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
+
 <body>
     <main>
-        
+        <!-- Top Selling Section Container -->
+        <section
+            class="w-full min-h-screen py-16 px-4 md:px-8 bg-[#161c14] flex flex-col items-center justify-center font-sans antialiased">
+            <div class="w-full max-w-5xl mx-auto">
+
+                <!-- Design-Accurate Header Element -->
+                <div class="flex justify-center mb-12">
+                    <div class="relative px-6 py-2 border-l-2 border-r-2 border-[#547348] rounded-t-xl rounded-b-xl">
+                        <div
+                            class="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#547348] to-transparent">
+                        </div>
+                        <div
+                            class="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#547348] to-transparent">
+                        </div>
+                        <h2 class="text-xl md:text-2xl font-semibold text-white tracking-wide">Our Top Selling</h2>
+                    </div>
+                </div>
+
+                <!-- 3-Column Responsive Product Layout Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 justify-items-center">
+
+                    <!-- Card 1: Aglaonema/Calathea Plant Style -->
+                    <div
+                        class="w-full max-w-[290px] rounded-[2.5rem] bg-white/[0.04] border border-white/[0.06] shadow-[0_20px_50px_rgba(0,0,0,0.3)] backdrop-blur-md p-6 flex flex-col justify-between hover:bg-white/[0.06] transition-all duration-300">
+                        <div class="flex flex-col items-center text-center">
+                            <!-- Perfectly Clean Centered Image Slot -->
+                            <div class="w-full aspect-square flex items-center justify-center mb-4">
+                                <img src="https://unsplash.com" alt="Calathea plant"
+                                    class="h-44 w-auto object-contain filter drop-shadow-[0_12px_20px_rgba(0,0,0,0.4)]" />
+                            </div>
+                            <!-- Product Name -->
+                            <h3 class="text-[#ced8cb] text-lg font-medium tracking-wide mb-2 self-start">Calathea plant
+                            </h3>
+                            <!-- Truncated Description Placeholder -->
+                            <p class="text-gray-500 text-xs leading-relaxed text-left line-clamp-2 mb-6">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <!-- Card Pricing & Bag Action Interface -->
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-gray-300 text-base font-semibold tracking-wide">Rs. 359/-</span>
+                            <button
+                                class="cursor-pointer p-2.5 rounded-xl border border-white/20 text-gray-400 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all active:scale-95">
+                                <!-- Outline Shopping Bag Icon Meta Component -->
+                                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.119-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Potted Foliage Plant Style -->
+                    <div
+                        class="w-full max-w-[290px] rounded-[2.5rem] bg-white/[0.04] border border-white/[0.06] shadow-[0_20px_50px_rgba(0,0,0,0.3)] backdrop-blur-md p-6 flex flex-col justify-between hover:bg-white/[0.06] transition-all duration-300">
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-full aspect-square flex items-center justify-center mb-4">
+                                <img src="https://unsplash.com" alt="Calathea plant"
+                                    class="h-44 w-auto object-contain filter drop-shadow-[0_12px_20px_rgba(0,0,0,0.4)]" />
+                            </div>
+                            <h3 class="text-[#ced8cb] text-lg font-medium tracking-wide mb-2 self-start">Calathea plant
+                            </h3>
+                            <p class="text-gray-500 text-xs leading-relaxed text-left line-clamp-2 mb-6">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-gray-300 text-base font-semibold tracking-wide">Rs. 359/-</span>
+                            <button
+                                class="cursor-pointer p-2.5 rounded-xl border border-white/20 text-gray-400 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all active:scale-95">
+                                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.119-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Columnar Terracotta Cactus Style -->
+                    <div
+                        class="w-full max-w-[290px] rounded-[2.5rem] bg-white/[0.04] border border-white/[0.06] shadow-[0_20px_50px_rgba(0,0,0,0.3)] backdrop-blur-md p-6 flex flex-col justify-between hover:bg-white/[0.06] transition-all duration-300">
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-full aspect-square flex items-center justify-center mb-4">
+                                <img src="https://unsplash.com" alt="Calathea plant"
+                                    class="h-44 w-auto object-contain filter drop-shadow-[0_12px_20px_rgba(0,0,0,0.4)]" />
+                            </div>
+                            <h3 class="text-[#ced8cb] text-lg font-medium tracking-wide mb-2 self-start">Calathea plant
+                            </h3>
+                            <p class="text-gray-500 text-xs leading-relaxed text-left line-clamp-2 mb-6">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-gray-300 text-base font-semibold tracking-wide">Rs. 359/-</span>
+                            <button
+                                class="cursor-pointer p-2.5 rounded-xl border border-white/20 text-gray-400 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all active:scale-95">
+                                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.119-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Styled Wide Plant Style -->
+                    <div
+                        class="w-full max-w-[290px] rounded-[2.5rem] bg-white/[0.04] border border-white/[0.06] shadow-[0_20px_50px_rgba(0,0,0,0.3)] backdrop-blur-md p-6 flex flex-col justify-between hover:bg-white/[0.06] transition-all duration-300">
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-full aspect-square flex items-center justify-center mb-4">
+                                <img src="https://unsplash.com" alt="Calathea plant"
+                                    class="h-44 w-auto object-contain filter drop-shadow-[0_12px_20px_rgba(0,0,0,0.4)]" />
+                            </div>
+                            <h3 class="text-[#ced8cb] text-lg font-medium tracking-wide mb-2 self-start">Calathea plant
+                            </h3>
+                            <p class="text-gray-500 text-xs leading-relaxed text-left line-clamp-2 mb-6">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-gray-300 text-base font-semibold tracking-wide">Rs. 359/-</span>
+                            <button
+                                class="cursor-pointer p-2.5 rounded-xl border border-white/20 text-gray-400 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all active:scale-95">
+                                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.119-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Tropical Upright Plant Style -->
+                    <div
+                        class="w-full max-w-[290px] rounded-[2.5rem] bg-white/[0.04] border border-white/[0.06] shadow-[0_20px_50px_rgba(0,0,0,0.3)] backdrop-blur-md p-6 flex flex-col justify-between hover:bg-white/[0.06] transition-all duration-300">
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-full aspect-square flex items-center justify-center mb-4">
+                                <img src="https://unsplash.com" alt="Calathea plant"
+                                    class="h-44 w-auto object-contain filter drop-shadow-[0_12px_20px_rgba(0,0,0,0.4)]" />
+                            </div>
+                            <h3 class="text-[#ced8cb] text-lg font-medium tracking-wide mb-2 self-start">Calathea plant
+                            </h3>
+                            <p class="text-gray-500 text-xs leading-relaxed text-left line-clamp-2 mb-6">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-gray-300 text-base font-semibold tracking-wide">Rs. 359/-</span>
+                            <button
+                                class="cursor-pointer p-2.5 rounded-xl border border-white/20 text-gray-400 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all active:scale-95">
+                                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.119-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 6: Zebra/Snake Succulent Plant Style -->
+                    <div
+                        class="w-full max-w-[290px] rounded-[2.5rem] bg-white/[0.04] border border-white/[0.06] shadow-[0_20px_50px_rgba(0,0,0,0.3)] backdrop-blur-md p-6 flex flex-col justify-between hover:bg-white/[0.06] transition-all duration-300">
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-full aspect-square flex items-center justify-center mb-4">
+                                <img src="https://unsplash.com" alt="Calathea plant"
+                                    class="h-44 w-auto object-contain filter drop-shadow-[0_12px_20px_rgba(0,0,0,0.4)]" />
+                            </div>
+                            <h3 class="text-[#ced8cb] text-lg font-medium tracking-wide mb-2 self-start">Calathea plant
+                            </h3>
+                            <p class="text-gray-500 text-xs leading-relaxed text-left line-clamp-2 mb-6">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-gray-300 text-base font-semibold tracking-wide">Rs. 359/-</span>
+                            <button
+                                class="cursor-pointer p-2.5 rounded-xl border border-white/20 text-gray-400 hover:text-white hover:border-white/40 hover:bg-white/5 transition-all active:scale-95">
+                                <svg xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.119-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
     </main>
 </body>
+
 </html>
