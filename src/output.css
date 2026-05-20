@@ -220,8 +220,17 @@
   .top-2 {
     top: calc(var(--spacing) * 2);
   }
+  .top-5 {
+    top: calc(var(--spacing) * 5);
+  }
+  .top-9 {
+    top: calc(var(--spacing) * 9);
+  }
   .top-10 {
     top: calc(var(--spacing) * 10);
+  }
+  .top-11 {
+    top: calc(var(--spacing) * 11);
   }
   .top-25 {
     top: calc(var(--spacing) * 25);
@@ -229,8 +238,17 @@
   .top-50 {
     top: calc(var(--spacing) * 50);
   }
+  .top-55 {
+    top: calc(var(--spacing) * 55);
+  }
   .top-70 {
     top: calc(var(--spacing) * 70);
+  }
+  .top-75 {
+    top: calc(var(--spacing) * 75);
+  }
+  .top-85 {
+    top: calc(var(--spacing) * 85);
   }
   .top-90 {
     top: calc(var(--spacing) * 90);
@@ -243,6 +261,12 @@
   }
   .top-110 {
     top: calc(var(--spacing) * 110);
+  }
+  .top-113 {
+    top: calc(var(--spacing) * 113);
+  }
+  .top-115 {
+    top: calc(var(--spacing) * 115);
   }
   .top-117 {
     top: calc(var(--spacing) * 117);
@@ -421,6 +445,12 @@
   .h-100 {
     height: calc(var(--spacing) * 100);
   }
+  .h-120 {
+    height: calc(var(--spacing) * 120);
+  }
+  .h-130 {
+    height: calc(var(--spacing) * 130);
+  }
   .h-140 {
     height: calc(var(--spacing) * 140);
   }
@@ -529,6 +559,12 @@
     border-color: color-mix(in srgb, #fff 0%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       border-color: color-mix(in oklab, var(--color-white) 0%, transparent);
+    }
+  }
+  .border-white\/1 {
+    border-color: color-mix(in srgb, #fff 1%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--color-white) 1%, transparent);
     }
   }
   .border-white\/10 {
