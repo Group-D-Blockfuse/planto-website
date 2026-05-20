@@ -433,11 +433,17 @@
   .table {
     display: table;
   }
+  .h-1 {
+    height: calc(var(--spacing) * 1);
+  }
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
   .h-10 {
     height: calc(var(--spacing) * 10);
+  }
+  .h-13 {
+    height: calc(var(--spacing) * 13);
   }
   .h-15 {
     height: calc(var(--spacing) * 15);
@@ -460,6 +466,9 @@
   .h-180 {
     height: calc(var(--spacing) * 180);
   }
+  .w-0 {
+    width: calc(var(--spacing) * 0);
+  }
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
@@ -468,6 +477,9 @@
   }
   .w-30 {
     width: calc(var(--spacing) * 30);
+  }
+  .w-40 {
+    width: calc(var(--spacing) * 40);
   }
   .w-50 {
     width: calc(var(--spacing) * 50);
