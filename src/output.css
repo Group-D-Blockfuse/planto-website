@@ -223,8 +223,23 @@
   .top-25 {
     top: calc(var(--spacing) * 25);
   }
+  .top-50 {
+    top: calc(var(--spacing) * 50);
+  }
+  .top-100 {
+    top: calc(var(--spacing) * 100);
+  }
+  .top-120 {
+    top: calc(var(--spacing) * 120);
+  }
+  .top-150 {
+    top: calc(var(--spacing) * 150);
+  }
   .top-190 {
     top: calc(var(--spacing) * 190);
+  }
+  .bottom-0 {
+    bottom: calc(var(--spacing) * 0);
   }
   .bottom-1 {
     bottom: calc(var(--spacing) * 1);
@@ -256,11 +271,29 @@
   .bottom-35 {
     bottom: calc(var(--spacing) * 35);
   }
+  .bottom-40 {
+    bottom: calc(var(--spacing) * 40);
+  }
   .bottom-45 {
     bottom: calc(var(--spacing) * 45);
   }
   .bottom-50 {
     bottom: calc(var(--spacing) * 50);
+  }
+  .bottom-60 {
+    bottom: calc(var(--spacing) * 60);
+  }
+  .bottom-70 {
+    bottom: calc(var(--spacing) * 70);
+  }
+  .bottom-80 {
+    bottom: calc(var(--spacing) * 80);
+  }
+  .bottom-490 {
+    bottom: calc(var(--spacing) * 490);
+  }
+  .bottom-500 {
+    bottom: calc(var(--spacing) * 500);
   }
   .bottom-530 {
     bottom: calc(var(--spacing) * 530);
@@ -307,8 +340,23 @@
   .ml-0 {
     margin-left: calc(var(--spacing) * 0);
   }
+  .ml-2 {
+    margin-left: calc(var(--spacing) * 2);
+  }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
+  }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
+  }
   .ml-15 {
     margin-left: calc(var(--spacing) * 15);
+  }
+  .ml-20 {
+    margin-left: calc(var(--spacing) * 20);
+  }
+  .ml-30 {
+    margin-left: calc(var(--spacing) * 30);
   }
   .ml-38 {
     margin-left: calc(var(--spacing) * 38);
@@ -324,6 +372,9 @@
   }
   .ml-190 {
     margin-left: calc(var(--spacing) * 190);
+  }
+  .ml-210 {
+    margin-left: calc(var(--spacing) * 210);
   }
   .flex {
     display: flex;
@@ -346,6 +397,12 @@
   .h-140 {
     height: calc(var(--spacing) * 140);
   }
+  .h-160 {
+    height: calc(var(--spacing) * 160);
+  }
+  .h-180 {
+    height: calc(var(--spacing) * 180);
+  }
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
@@ -360,6 +417,12 @@
   }
   .w-80 {
     width: calc(var(--spacing) * 80);
+  }
+  .w-100 {
+    width: calc(var(--spacing) * 100);
+  }
+  .w-110 {
+    width: calc(var(--spacing) * 110);
   }
   .w-120 {
     width: calc(var(--spacing) * 120);
