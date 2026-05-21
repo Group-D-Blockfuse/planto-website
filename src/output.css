@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-600: oklch(57.7% 0.245 27.325);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -237,6 +238,9 @@
   }
   .bottom-15 {
     bottom: calc(var(--spacing) * 15);
+  }
+  .bottom-19 {
+    bottom: calc(var(--spacing) * 19);
   }
   .bottom-20 {
     bottom: calc(var(--spacing) * 20);
@@ -568,6 +572,12 @@
   .h-\[1500px\] {
     height: 1500px;
   }
+  .h-\[1600px\] {
+    height: 1600px;
+  }
+  .h-\[1700px\] {
+    height: 1700px;
+  }
   .h-\[1800px\] {
     height: 1800px;
   }
@@ -582,6 +592,9 @@
   }
   .h-\[px\] {
     height: px;
+  }
+  .h-screen {
+    height: 100vh;
   }
   .w-5 {
     width: calc(var(--spacing) * 5);
@@ -691,6 +704,9 @@
   .overflow-hidden {
     overflow: hidden;
   }
+  .overflow-y-auto {
+    overflow-y: auto;
+  }
   .overflow-y-hidden {
     overflow-y: hidden;
   }
@@ -744,6 +760,9 @@
       border-color: color-mix(in oklab, var(--color-white) 90%, transparent);
     }
   }
+  .bg-red-600 {
+    background-color: var(--color-red-600);
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -752,6 +771,36 @@
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-white) 5%, transparent);
     }
+  }
+  .bg-\[url\(\'rc\/images\/nagy-arnold-X_IvVDuHvDQ-unsplash\.png\'\)\] {
+    background-image: url('rc/images/nagy-arnold-X_IvVDuHvDQ-unsplash.png');
+  }
+  .bg-\[url\(\'src\/images\/nagy-arnold-X_IvVDuHvDQ-unsplash\.png\'\)\] {
+    background-image: url('src/images/nagy-arnold-X_IvVDuHvDQ-unsplash.png');
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\/\'\'\)\] {
+    background-image: url(/'');
+  }
+  .bg-\[url\(\/\'rc\/images\/nagy-arnold-X_IvVDuHvDQ-unsplash\.png\'\)\] {
+    background-image: url(/'rc/images/nagy-arnold-X_IvVDuHvDQ-unsplash.png');
+  }
+  .bg-\[url\(\/\'src\/images\/nagy-arnold-X_IvVDuHvDQ-unsplash\.png\'\)\] {
+    background-image: url(/'src/images/nagy-arnold-X_IvVDuHvDQ-unsplash.png');
+  }
+  .bg-\[url\(\/img\/mountains\.jpg\)\] {
+    background-image: url(/img/mountains.jpg);
+  }
+  .bg-\[url\(\/src\/images\/nagy-arnold-X_IvVDuHvDQ-unsplash\.png\)\] {
+    background-image: url(/src/images/nagy-arnold-X_IvVDuHvDQ-unsplash.png);
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-center {
+    background-position: center;
   }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
@@ -825,6 +874,9 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .whitespace-nowrap {
+    white-space: nowrap;
   }
   .text-black {
     color: var(--color-black);
