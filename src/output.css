@@ -197,6 +197,9 @@
   .relative {
     position: relative;
   }
+  .top-1 {
+    top: calc(var(--spacing) * 1);
+  }
   .top-3 {
     top: calc(var(--spacing) * 3);
   }
@@ -235,6 +238,12 @@
   }
   .top-190 {
     top: calc(var(--spacing) * 190);
+  }
+  .top-300 {
+    top: calc(var(--spacing) * 300);
+  }
+  .top-380 {
+    top: calc(var(--spacing) * 380);
   }
   .right-10 {
     right: calc(var(--spacing) * 10);
@@ -316,6 +325,9 @@
   }
   .bottom-60 {
     bottom: calc(var(--spacing) * 60);
+  }
+  .bottom-80 {
+    bottom: calc(var(--spacing) * 80);
   }
   .bottom-100 {
     bottom: calc(var(--spacing) * 100);
@@ -602,8 +614,14 @@
   .ml-117 {
     margin-left: calc(var(--spacing) * 117);
   }
+  .ml-120 {
+    margin-left: calc(var(--spacing) * 120);
+  }
   .ml-130 {
     margin-left: calc(var(--spacing) * 130);
+  }
+  .ml-140 {
+    margin-left: calc(var(--spacing) * 140);
   }
   .ml-150 {
     margin-left: calc(var(--spacing) * 150);
